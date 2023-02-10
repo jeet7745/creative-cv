@@ -1,0 +1,419 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+
+/*------Navigation bar-------*/
+nav{
+    height: 120px;
+    width: 100%;
+    background-color:#cfe4df ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    left: 300px;
+    width: 72px;
+    border-radius: 50%;
+}
+
+.nav-ul{
+      position: relative;
+      right: 150px;
+    
+}
+
+.nav-ul li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 24px;
+
+}
+
+.nav-a{
+    text-decoration: none;
+    color: #45b29a;
+}
+
+.nav-a:hover{
+    color: black;
+}
+/*---------Navigation Bar ends here------------*/
+
+/*---------Section1 Starts here-----------*/
+.sec1{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-color: #e0ebe8;
+
+}
+
+#sec1-h2{
+    position: absolute;
+    left: 550px;
+    top: 124px;
+    
+    font-size: 38px;
+    color: #45b29a;
+
+}
+
+#sec1-p{
+    position: absolute;
+    top: 190px;
+    left: 540px;
+    font-size: 24px;
+    color: #45b29a;
+}
+
+.main-img{
+    position: absolute;
+    bottom: 0px;
+    left: 320px;
+}
+.cloud1{
+    position: absolute;
+    top: 210px;
+    left: 300px;
+    border-radius: 45%;
+
+}
+
+.cloud2{
+    position: absolute;
+    top: 115px;
+    right: 310px;
+    border-radius: 45%;
+}
+
+/*--------Section1 Ends here----------*/
+
+/*--------Section2 Starts here--------*/
+.sec2{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    
+}
+
+.main-logo{
+    width: 150px;
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    border-radius: 50%;
+}
+
+.sec2 h2{
+    color: #45b29a;
+    position: absolute;
+    top: 315px;
+    left: 610px;
+
+}
+
+.sec2 p{
+    width: 50%;
+    color: #464948;
+    position: absolute;
+    top: 350px;
+    left: 320px;
+    font-size: 18px;
+    text-align: center;
+    word-spacing: 4px;
+    line-height: 1.8;
+}
+/*---------Section2 Ends here---------*/
+
+/*---------Section3 Starts here-------*/
+.sec3{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    
+}
+
+.sec3 h2{
+    position: absolute;
+    top: 111px;
+    left: 480px;
+    font-size: 50px;
+    color: #1e836c;
+}
+
+.grid{
+    position: absolute;
+    top: 227px;
+    left: 243px;
+    width: 800px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 410px);
+    grid-template-rows: repeat(2, 250px);
+}
+
+.box1 img{
+    width: 150px;
+    position: relative;
+    top: 42px;
+    left: 50px;
+    transition: 0.4s;
+}
+
+.box2 h2{
+    position: relative;
+    top: 45px;
+    left: 10px;
+    color: #45b29a;
+    font-size: 25px;
+}
+
+.box2 p{
+    position: relative;
+    top: 74px;
+    left: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.box3 h2{
+    position: relative;
+    top: 45px;
+    left: 15px;
+    color: #45b29a;
+    font-size: 25px;
+}
+
+.box3 p{
+    position: relative;
+    top: 77px;
+    left: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.box4 img{
+    width: 300px;
+    position: relative;
+    top: 47px;
+    left: 195px;
+    transition: 0.4s;
+}
+
+.box1:hover{
+    background-color: rgb(245, 246, 248);
+    border-radius: 10%;
+}
+
+.box2:hover{
+    background-color: rgb(245, 246, 248);
+    border-radius: 10%;
+}
+
+.box3:hover{
+    background-color: rgb(245, 246, 248);
+    border-radius: 10%;
+}
+
+.box4:hover{
+    background-color: rgb(245, 246, 248);
+    border-radius: 10%;
+}
+
+.box1:hover img{
+    transform: translateX(70px) scale(1.1);
+}
+.box4:hover img{
+    transform: translateX(-70px) scale(1.1);
+}
+/*---------Section3 Ends here---------*/
+
+/*---------Section4 Starts here--------*/
+.sec4{
+    width: 100%;
+    height: 730px;
+    position: relative;
+}
+
+.sec4 h2{
+    position: absolute;
+    top: 152px;
+    left: 550px;
+    font-size: 53px;
+    color: #1e836c;
+    font-weight: 100;
+}
+
+.sec4 h3{
+    position: absolute;
+    top: 277px;
+    left: 427px;
+    font-size: 25px;
+    color: #45b29a;
+}
+
+.sec4 p{
+    position: absolute;
+    top: 366px;
+    left: 380px;
+    width: 43%;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    top: 497px;
+    left: 560px;
+    width: 200px;
+    height: 50px;
+    background-color: #45b29a;
+    cursor: pointer;
+    font-size: 18px;
+    color: #e0ebe8;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    color: #1e836c;
+    transform: scale(1.01);
+}
+/*--------Section4 Ends Here---------*/
+
+/*--------Footer Starts Here---------*/
+.footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #e0ebe8;
+}
+
+.footer ul{
+    position: absolute;
+    top: 55px;
+    left: 310px;
+}
+
+.footer ul a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #45b29a;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.footer ul li:hover{
+    color: #0e392f;
+}
+
+.footer p{
+    position: absolute;
+    top: 168px;
+    left: 560px;
+    font-size: 14px;
+    color: #45b29a;
+}
+/*--------Footer Ends Here---------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
